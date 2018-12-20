@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>HOME | Diretorate of Physical Edu and Sports</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/jpg" href="images/logo.jpg">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheet/m.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheet/news.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheet/carausel.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Lato|Montserrat|PT+Sans|Patrick+Hand|Playfair+Display:700|Poor+Story|Slabo+27px" rel="stylesheet">
+
+        <style>
+
+            .dd{
+                background-image: url(images/vision-mission/skyy.png);
+                background-size: cover;
+
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            .news:hover{
+                text-shadow: 3px 3px 20px #f4ebeb;
+                transition: 2s;
+            }
+
+            .card h4{
+                font-size: 23px;
+
+            }
+
+            .newsgroup{
+                margin-right: -6px;
+                margin-left: 6px;
+
+
+
+            }
+            @media only screen and (max-width: 768px) {
+                .display-4{
+                    font-size:34px!important;
+                }
+
+                .card{
+                    height: 502px;
+                    width: 293px;
+                    align-self: center;
+                }
+            }
+
+
+
+
+            .no-js #loader { display: none;  }
+            .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+            .se-pre-con {
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                width: 100%;
+                height: 100%;
+                z-index: 9999;
+                display: flex;
+                background: url(images/loader.gif) center no-repeat #fff;
+
+            }
+        </style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+        <script>
+            //paste this code under the head tag or in a separate js file.
+            // Wait for window load
+            $(window).load(function() {
+                // Animate loader off screen
+                $(".se-pre-con").fadeOut("slow");;
+            });
+        </script>
+
+
+
+    </head>
+    <body>
+
+
+        <div class="se-pre-con"></div>
+        <!--    *******************************NAVBAR STARTS******************************   -->
+
+        <nav class="navbar navbar-expand-md bg-color navbar-dark fixed-top">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav linetransition">
+
+                    <!-- Dropdown start -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="aboutus.html" id="navbardrop" data-toggle="dropdown">
+                            About us&nbsp<i class="fas fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="vision-mission.html">Vision-Mission-Objectives</a>
+                            <a class="dropdown-item" href="index.html#aboutdavv">About DAVV</a>
+
+                            <a class="dropdown-item" href="directormsg.html">Director's Message</a>
+                            <a class="dropdown-item" href="#">List of Affiliated Colleges</a>
+
+                        </div>
+                    </li>
+                    <!-- Dropdown ends -->  
+
+
+                    <!-- Dropdown start -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="student.html" id="navbardrop" data-toggle="dropdown">
+                            Student Corner &nbsp<i class="fas fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Qualifying Standards</a>
+                            <a class="dropdown-item" href="awards.html">Awards & Scholarships</a>
+                            <a class="dropdown-item" href="#">UTD Related</a>
+                        </div>
+                    </li>
+                    <!-- Dropdown ends -->
+                    <!-- Dropdown start -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="staff.html" id="navbardrop" data-toggle="dropdown">
+                            Staff Corner &nbsp<i class="fas fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Principal Login</a>
+                            <a class="dropdown-item" href="#">Sports Officer Login</a>
+                        </div>
+                    </li>
+                    <!-- Dropdown ends -->
+                    <!-- Dropdown start -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="administration.html" id="navbardrop" data-toggle="dropdown">
+                            Administration &nbsp<i class="fas fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="directormsg.html">Director</a>
+                            <a class="dropdown-item" href="#">Assistant Director</a>
+                            <a class="dropdown-item" href="faculty.html">Office Staff</a>
+                            <a class="dropdown-item" href="#">Sports Committee</a>
+                            <a class="dropdown-item" href="#">Excecutive Board Sports</a>
+                        </div>
+                    </li>
+                    <!-- Dropdown ends -->
+
+                    <!-- Dropdown start -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="tournament.html" id="navbardrop" data-toggle="dropdown">
+                            Tournament&nbsp<i class="fas fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Inter University</a>
+                            <a class="dropdown-item" href="#">M.P. State</a>
+                            <a class="dropdown-item" href="#">Inter Collegiate</a>
+                        </div>
+                    </li>
+                    <!-- Dropdown ends -->
+                    <!-- Dropdown start -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="downloads.html" id="navbardrop" data-toggle="dropdown">
+                            Downloads&nbsp<i class="fas fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="utdsportscalendar.html">UTD Sports Calender</a>
+                            <a class="dropdown-item" href="interuniversitysportscalendar.html">Inter University Sports Calender</a>
+                            <a class="dropdown-item" href="intercollegiatesportscalendar.html">Inter Collegiate  Sports Calender</a>
+                            <a class="dropdown-item" href="#">Eligibility/Incentives</a>
+                            <a class="dropdown-item" href="http://www.dauniv.ac.in/sports/Inter%20Collegiate%20Proforma%20&%20Circulars%202018-2019.pdf">Proformas/Forms/Formats</a>
+                            <a class="dropdown-item" href="#">Qualifying Standards</a>
+
+                        </div>
+                    </li>
+                    <!-- Dropdown ends -->
+                    <!-- Dropdown start -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Notices&nbsp<i class="fas fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="http://www.dauniv.ac.in/sports.php"  target="_blank">Circulars</a>
+                            <a class="dropdown-item" href="http://www.dauniv.ac.in/sports.php"  target="_blank">Letters</a>
+                            <a class="dropdown-item" href="http://www.dauniv.ac.in/sports.php"  target="_blank">Fixtures</a>
+                            <a class="dropdown-item" href="http://www.dauniv.ac.in/sports.php"  target="_blank">Tenders</a>
+                        </div>
+                    </li>
+                    <!-- Dropdown ends -->
+                    <!-- Dropdown start -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="gallery.html" target="_blank" >
+                            Gallery
+                        </a>
+                    </li>
+                    <!-- Dropdown ends -->             
+                    <!-- Dropdown start -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Achievements&nbsp<i class="fas fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Individuals</a>
+                            <a class="dropdown-item" href="#">Team</a>
+                            <a class="dropdown-item" href="#">Infrastructure/Facilities</a>
+                        </div>
+                    </li>
+                    <!-- Dropdown ends -->  
+                    <!-- Dropdown start -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="contactus.html" >
+                            Contact Us
+                        </a>
+                    </li>
+                    <!-- Dropdown ends -->  
+
+                </ul>
+            </div>  
+        </nav>
+        <div class="container-fluid logod">
+            <div class="row">
+                <div class="col-sm-1.5" > <img src="images/logo.jpg" class="rounded-circle img-fluid float-left davvlogo"  style="margin-left: 12px;">
+                </div>
+
+                <div class="heading col-sm-10.5">
+                    <h5 > Directorate Of Physical Education & Sports</h5> 
+                    <h6 class="one"> Devi Ahilya Vishwavidyalaya,Indore</h6>
+                    <h6  class="two">(NAAC accrediated "A" Grade University)</h6>
+                </div>
+            </div>
+        </div>
+
+        <!--    *******************************NAVBAR ENDS******************************   -->     
+
+        <!-- **********************CARAUSEL STARTS**************************   -->
+
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.JPG" alt="image 1" >
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.JPG" alt="image 2" >
+                </div>
+                <div class="carousel-item">
+                    <img src="images/3.JPG" alt="image 3" >
+                </div>
+                <div class="carousel-item">
+                    <img src="images/4.JPG" alt="image 4" >
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+
+        <!-- **********************CARAUSEL ENDS**************************   -->   
+
+        <!--        <marquee style="color:red; font-size:18px; font-weight: 700;"><i> IMPORTANT UPDATES!!!</i></marquee>-->
+        <!--**************************************NEWS and Events START*******************************************-->
+
+
+        <!-- <*****news start****> -->
+        <!-- <*****news start****> -->
+
+        <div class="dd container-fluid" style="/*background-color:white;*/ padding: 0px;">
+            <div class="container-fluid" style="background-color: #2f2424; padding: 27px; width:100vw; padding-top: 5px;">
+                <h1 class="display-4" style="text-align: center; color: white; padding-bottom: 5px; text-shadow: 3px 3px 20px #f4ebeb; ">News and Events</h1>
+                <div class="align-center card-deck">
+
+                    <div class="card align-center" >
+                        <img class="card-img-top img-fluid" src="images/news.gif" alt="Card image" style="width:100%">
+                        <div style="position: relative; top: -24px; left: 18px; background-color: #2f2424; height: 50px; width: 50px; text-align: center;  color: white;">
+                            <span>Sept</span>
+                            <span>22</span>
+                        </div>
+                        <div class="card-body" style="padding-top: 0px;">
+                            <h4 class="card-title">Basketball Women</h4>
+                            <p class="card-text " style="justify-content: center;">Holker Sc. College, Indore is organising a two day tournament which would be held on 26-27sept 2018. Dates of selection trials are around 19-20 Sept 2018.For further details you can contact the undersigned<br>-Dr.Devendra Verma(9826418567).</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card align-center">
+                        <img class="card-img-top img-fluid" src="images/tenor.gif" alt="Card image" style="width:100%; ">
+                        <div style="position: relative; top: -24px; left: 18px; background-color: #2f2424; height: 50px; width: 50px; text-align: center;  color: white;">
+                            <span style="padding-left: 6px;">Jan </span>
+                            <span style="padding-left: 1px;">29</span>
+                        </div>
+                        <div class="card-body" style="padding-top: 0px;">
+                            <h4 class="card-title" >Basketball Men</h4>
+                            <p class="card-text">MB Khalsa College, Indore is organising a tournament which will be held around 4th week Jan,2019. Selection would take place around 3rd week of Jan 2019. For further details you can contact the undersigned<br>-Dr.Piyush Kendurkar(9893052677).</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card align-center" >
+                        <img class="card-img-top img-fluid" src="images/news2.gif" alt="Card image" style="width:100%">
+                        <div style="position:relative; top: -24px; left: 18px; background-color: #2f2424; height: 50px; width: 50px;  color: white;">
+                            <span style="padding-left: 10px;">  Oct  </span>
+                            <span style="padding-left:19px;"> 3</span>
+                        </div>
+                        <div class="card-body" style="padding-top: 0px;">
+                            <h4 class="card-title">Football Women</h4>
+                            <div><p class="card-text">Kasturba Rural Institute, Indore  is organising a two day tournament which will be held on 03-04 Oct 2018. Selection would take place around Last week of Sept18.For further details you can contact the undersigned<br>-Dr.Mukesh Solanki (9826955772).</p></div><br>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card align-center" >
+                        <img class="card-img-top img-fluid" src="images/clock.gif" alt="Card image" style="width:100%; height:169px;">
+                        <div style="position: relative; top: -24px; left: 18px; background-color: #2f2424; height: 50px; width: 50px; text-align: center;  color: white;">
+                            <span>Nov</span>
+                            <span>29</span>
+                        </div>
+                        <div class="card-body" style="padding-top: 0px;">
+                            <h4 class="card-title">Kho-Kho Men</h4>
+                            <div><p class="card-text">Islamia Karimia College,Indore.is organising a two day tournament which would be held on 18-20 Sept 2018.  Selection would take place around 14-15 Sept 2018.For further details you can contact the undersigned<br>-Dr.Vivek Sathe(9826418567).</p></div><br>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div></div>
+            <!-- ************ -->
+              <div class="container-fluid dd" id="aboutdavv" style="" align="center">
+
+                <a href="vision-mission.html"> <img class="img-fluid" src="images/vision-mission/vision-mission.png" alt=""  ></a>
+
+
+            </div>
+
+        </div>
+
+        <!--**************************************NEWS and Events ENDS*******************************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- *****************just after first cover page welcome wala /start/ ***********
+
+-->    
+        <div class="row"  style="margin-top: 40px;">
+            <div class="col-md-5" >
+                <div style="background-color:white;  padding: 12px; padding-bottom: 38px; padding-left: 60px;">
+
+                    <div style="box-shadow: 6px 8px 6px #0a394fbf; ">
+                        <img src="images/campus.jpg" alt="" style="width:100%;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7" style="color:#3b2f2f;  padding: 24px; padding-left: 56px;">
+                <h1 style="font-family: 'Asap', cursive;"><center>About DAVV...</center></h1>
+                <span style="font-family: 'Asap', sans-serif; font-size: 20px;">Devi Ahilya Vishwavidyalaya (DAVV),
+                    formerly University of Indore, is a premier University in Central India, has completed 54th years 
+                    of establishment, educational commitment and services. It is the First State University of Madhya
+                    Pradesh which has been accredited with “A” grade by NAAC. It was established in 1964,by an
+                    Act of Legislature of Madhya Pradesh. </span>        
+            </div>
+        </div>
+
+        <!-- *****************just after first cover page welcome wala /over/ *********** -->    
+
+
+
+
+
+
+
+        <!-- ****************FOOTER MAIN PAGE*************** -->
+        <div class="container-fluid" style="background-color:#282728;">
+            <div class="row">
+                <div class="col-md-2 " style=" ">
+                    <div style=" padding-block-start: 50px;" align="center">
+                        <img src="images/footerlogo.jpg" class="img-fluid" style=" width: 149px;" >
+                        <div style=" color:#939292; position:relative; left: 10px;">
+                            <b> SPORTS AT DAVV</b>
+                        </div>
+                    </div>
+
+                    <!-- <div style="position:relative; top:102px; left:102px; ">
+
+</diV> -->
+
+                </div>
+                <div class="col-md-3" style=" padding-left: 100px;" align="left ">
+
+                    <table border="0" style="color:#939292; font-size: 18px;  font-family: 'Slabo 27px', serif;">
+                        <tr>
+                            <td style="text-decoration:underline; text-decoration-color: rgb(34, 33, 33); padding: 10px; font-size: 30px; " >Quick Links</td>
+
+                        </tr>
+                        <tr>
+                            <td>Home</td>
+                        </tr>
+                        <tr>
+                            <td>About Us</td>
+                        </tr>
+                        <tr>
+                            <td>Facilities</td>
+                        </tr>
+                        <tr>
+                            <td>Tournaments</td>
+                        </tr>
+                        <tr>
+                            <td>List of Affliated Colleges</td>
+                        </tr>
+                        <tr>
+                            <td>News & Events</td>
+                        </tr>
+                        <tr>
+                            <td>Developer Team</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+                <div class="col-md-3" style="color:#939292; padding-left: 100px;" align="left" >
+                    <table border="0" style="color:#939292; font-size: 18px;   font-family: 'Slabo 27px', serif;" align="left">
+                        <tr>
+                            <td style="text-decoration:underline; text-decoration-color: rgb(34, 33, 33); padding: 10px; font-size: 30px; " >CONTACT US</td>
+
+                        </tr>
+                        <tr>
+                            <td style="padding-block-start:5px;"> Directorate of Sports<br>Takshashila Parisar,<br> Khandwa Road, Indore (M.P.) 452001</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-block-start:15px;">Email: head.inst@dauniv.ac.in</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-block-start:15px;">Phone: +91-731-2527532</td>
+                        </tr>
+
+                    </table>
+                </div> 
+                <div class="col-md-4" style="color:#939292;  font-family: 'Slabo 27px', serif;padding: 10px; font-size: 30px; padding-left: 100px;" align="left">&nbsp;&nbsp;LOCATE US<br>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14724.270860798566!2d75.874927!3d22.688523!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9961b40d4992b7ca!2sDirectorate+Of+Physical+Education+%26+Sports!5e0!3m2!1sen!2sin!4v1542918741392" width="600" height="450" frameborder="0" style="border:0; height:250px; width: 250px;" ></iframe>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-6" align="center" style=" color:#939292; padding-block-start: 50px; padding-bottom: 30px;">
+                    © 2018 IET DAVV. All Rights Reserved. Website managed by IET-DAVV Students web development team. for any queries contact at: webmaster@ietdavv.edu.in
+                </div>
+                <div class="col-md-3">
+
+                </div>
+
+            </div>
+            <center><a href="sitemap.html">SiteMap</a>&nbsp;&nbsp;
+                <a href="#">FeedBack&nbsp;&nbsp;</a>
+                <a href="#">©Developers</a>
+            </center>
+        </div>
+        <!-- ********************footer over****************** -->
+
+
+    </body>
+</html>
+
+
